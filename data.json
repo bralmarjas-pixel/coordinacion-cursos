@@ -15,7 +15,7 @@
       "carpeta": {
         "nombre": "Materiales LyC — Drive",
         "descripcion": "Guías, PPT, formularios, instrumentos",
-        "url": "#"
+        "url": "https://grupoeducad-my.sharepoint.com/:f:/g/personal/balcantara_cientifica_edu_pe/IgC-Snz4rFZ-TIS1Zmue6trPAZ7Ccp3PGXdIzSgxO5ybBn0?e=nJdd4u"
       }
     },
     {
@@ -26,7 +26,7 @@
       "carpeta": {
         "nombre": "Materiales LyC2 — Drive",
         "descripcion": "Guías, banco de preguntas, formularios",
-        "url": "#"
+        "url": "https://grupoeducad-my.sharepoint.com/:f:/g/personal/balcantara_cientifica_edu_pe/IgDeqX08IUYhSY0OL_g2OUXAAfNdRPBNB4CN-q3OTeMh6sA?e=bbXK3W"
       }
     },
     {
@@ -37,18 +37,7 @@
       "carpeta": {
         "nombre": "Materiales RG — Drive",
         "descripcion": "Guías, cuaderno de evaluación, rúbricas",
-        "url": "#"
-      }
-    },
-    {
-      "id": "ing",
-      "nombre": "Inglés",
-      "codigo": "ING-101",
-      "color": "#7A6000",
-      "carpeta": {
-        "nombre": "Materiales Inglés — Drive",
-        "descripcion": "Guías, indicadores de progreso, plataforma",
-        "url": "#"
+        "url": "https://grupoeducad-my.sharepoint.com/:f:/g/personal/balcantara_cientifica_edu_pe/IgAFH7a-4SEjRrtTRaFKm01UAZHjWWA4iCOr-fPL-QN01jE?e=DPL5GB"
       }
     },
     {
@@ -59,7 +48,7 @@
       "carpeta": {
         "nombre": "Materiales LyO — Drive",
         "descripcion": "Guías, rúbrica oral, materiales de sesión",
-        "url": "#"
+        "url": "https://grupoeducad-my.sharepoint.com/:f:/g/personal/balcantara_cientifica_edu_pe/IgDom8Fwpw_ARp9hBJ92sNvKAaOi2v4ptMK6g4Y3nQJiYic?e=spjb1U"
       }
     }
   ],
@@ -67,41 +56,37 @@
     {
       "numero": 5,
       "fechaPublicacion": "2026-04-28",
+      "recomendaciones": "Colegas, recuerden que, para los cursos de Lengua y Oratoria y Lengua y Comunicación, el esfuerzo del estudiante es importante. Reforcemos la posibilidad de mejorar sus discursos orales. Brindemos mensajes alentadores para mejorar en las próximas entregas. En Canvas, debemos colocar lo indicado a modo de comentario general más las rúbricas, de acuerdo con las competencias. Todas las comunicaciones que tengamos con los estudiantes se establece por correo electrónico. ¡Tengan un buen inicio de semana!",
       "cursos": {
         "lyc": {
           "indicaciones": [
-            "Aplicar la actividad de mediación de lectura según la guía docente S5.",
-            "Registrar asistencia en el formulario antes de salir del aula.",
-            "Subir el producto colectivo a Canvas al cierre de la sesión.",
-            "Entrega de rúbricas: viernes 2 de mayo, 11:59 p.m."
+            "Nuestra EC1 califica el plan de trabajo de la monografía. Los estudiantes deben cumplir con la sustentación de la planificación de sus temas delimitados.",
+            "El taller de lectura se puede entregar hasta un día después de la EC1. Esta actividad equivale a 4 puntos de la EC1.",
+            "La vestimenta formal es opcional. No repercute en la calificación del estudiante, pues no se encuentra inscrita en la rúbrica."
           ]
         },
         "lyc2": {
           "indicaciones": [
-            "Aplicar el diagnóstico de comprensión lectora según la configuración del banco en Canvas.",
-            "Registrar resultados en el formulario de seguimiento.",
-            "Revisar el banco de preguntas antes de ingresar a clase."
+            "Nuestra EC1 es un debate académico. Seamos facilitadores del proceso.",
+            "Cumplir con el registro de las calificaciones en Educanet dentro del plazo establecido (48 horas culminada la clase).",
+            "Utilicemos la rúbrica para la evaluación vía Canvas.",
+            "Reprogramar la clase, de ser el caso por el feriado 'Día del Trabajador' 1 de mayo, entre el 4 al 7 del mismo mes. La EC1, para dicho caso, se ejecutará el 8 de mayo de manera presencial."
           ]
         },
         "rg": {
           "indicaciones": [
-            "Avanzar hasta la sección 3 del cuaderno de evaluación.",
-            "Retroalimentar borradores individuales antes de la sesión siguiente.",
-            "Verificar que los estudiantes hayan completado la entrega de la semana 4."
-          ]
-        },
-        "ing": {
-          "indicaciones": [
-            "Continuar con la unidad 2 según el cronograma del ciclo.",
-            "Verificar avance de estudiantes en la plataforma antes del viernes.",
-            "Asegurarse de que los estudiantes completen las actividades de la plataforma antes del cierre de semana."
+            "Recuerden evaluar a sus estudiantes mediante la rúbrica y con comentarios de retroalimentación.",
+            "Mencionemos a nuestros estudiantes la importancia de encender la cámara durante la sustentación del comité editorial.",
+            "Debemos migrar las calificaciones del Canvas al Educanet.",
+            "Comuniquemos a los chicos las razones de sus calificaciones, a través del comentario general en Canvas."
           ]
         },
         "lyo": {
           "indicaciones": [
-            "Trabajar el ejercicio de voz y proyección de la unidad 2.",
-            "Aplicar retroalimentación usando la rúbrica entregada la semana anterior.",
-            "Confirmar disponibilidad de aula para evaluación oral de semana 6."
+            "Nuestra EC1 se inicia desde la fase de teoría. El docente de práctica puede apoyarnos en caso culmine nuestra clase y falten grupos.",
+            "Tengamos a la mano nuestro cuaderno de trabajo para cotejar y sumar el puntaje final en el último intento de la tarea en Canvas.",
+            "La reprogramación de clase del 1 de mayo se establecerá entre el 4 al 7 del mes. La EC1, solo para el docente que dicta teoría-práctica en un mismo bloque, se ejecutará el 8 de mayo de manera presencial.",
+            "Coloquemos las calificaciones dentro de los plazos establecidos (48 horas dentro del plazo)."
           ]
         }
       }
