@@ -1,0 +1,110 @@
+{
+  "coordinacion": {
+    "titulo": "Coordinación de Curso: Lengua e Inglés",
+    "unidad": "Cursos Básicos / Humanidades",
+    "universidad": "Universidad Científica del Sur"
+  },
+  "ciclo": "2026-1",
+  "semanaActual": 5,
+  "cursos": [
+    {
+      "id": "lyc",
+      "nombre": "Lengua y Comunicación",
+      "codigo": "HUM-104",
+      "color": "#1E3A5F",
+      "carpeta": {
+        "nombre": "Materiales LyC — Drive",
+        "descripcion": "Guías, PPT, formularios, instrumentos",
+        "url": "#"
+      }
+    },
+    {
+      "id": "lyc2",
+      "nombre": "Lengua y Comunicación 2",
+      "codigo": "HUM-105",
+      "color": "#7A2020",
+      "carpeta": {
+        "nombre": "Materiales LyC2 — Drive",
+        "descripcion": "Guías, banco de preguntas, formularios",
+        "url": "#"
+      }
+    },
+    {
+      "id": "rg",
+      "nombre": "Redacción General",
+      "codigo": "HUM-101",
+      "color": "#5C3D6E",
+      "carpeta": {
+        "nombre": "Materiales RG — Drive",
+        "descripcion": "Guías, cuaderno de evaluación, rúbricas",
+        "url": "#"
+      }
+    },
+    {
+      "id": "ing",
+      "nombre": "Inglés",
+      "codigo": "ING-101",
+      "color": "#7A6000",
+      "carpeta": {
+        "nombre": "Materiales Inglés — Drive",
+        "descripcion": "Guías, indicadores de progreso, plataforma",
+        "url": "#"
+      }
+    },
+    {
+      "id": "lyo",
+      "nombre": "Lengua y Oratoria",
+      "codigo": "HUM-106",
+      "color": "#1A1A1A",
+      "carpeta": {
+        "nombre": "Materiales LyO — Drive",
+        "descripcion": "Guías, rúbrica oral, materiales de sesión",
+        "url": "#"
+      }
+    }
+  ],
+  "semanas": [
+    {
+      "numero": 5,
+      "fechaPublicacion": "2026-04-28",
+      "cursos": {
+        "lyc": {
+          "indicaciones": [
+            "Aplicar la actividad de mediación de lectura según la guía docente S5.",
+            "Registrar asistencia en el formulario antes de salir del aula.",
+            "Subir el producto colectivo a Canvas al cierre de la sesión.",
+            "Entrega de rúbricas: viernes 2 de mayo, 11:59 p.m."
+          ]
+        },
+        "lyc2": {
+          "indicaciones": [
+            "Aplicar el diagnóstico de comprensión lectora según la configuración del banco en Canvas.",
+            "Registrar resultados en el formulario de seguimiento.",
+            "Revisar el banco de preguntas antes de ingresar a clase."
+          ]
+        },
+        "rg": {
+          "indicaciones": [
+            "Avanzar hasta la sección 3 del cuaderno de evaluación.",
+            "Retroalimentar borradores individuales antes de la sesión siguiente.",
+            "Verificar que los estudiantes hayan completado la entrega de la semana 4."
+          ]
+        },
+        "ing": {
+          "indicaciones": [
+            "Continuar con la unidad 2 según el cronograma del ciclo.",
+            "Verificar avance de estudiantes en la plataforma antes del viernes.",
+            "Asegurarse de que los estudiantes completen las actividades de la plataforma antes del cierre de semana."
+          ]
+        },
+        "lyo": {
+          "indicaciones": [
+            "Trabajar el ejercicio de voz y proyección de la unidad 2.",
+            "Aplicar retroalimentación usando la rúbrica entregada la semana anterior.",
+            "Confirmar disponibilidad de aula para evaluación oral de semana 6."
+          ]
+        }
+      }
+    }
+  ]
+}

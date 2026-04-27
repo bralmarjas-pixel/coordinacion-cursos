@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coordinación de Curso: Lengua e Inglés</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #F5F4F0;
+    --surface: #FFFFFF;
+    --text: #1A1A1A;
+    --muted: #6B6B6B;
+    --border: #E0DED8;
+    --font: 'Montserrat', sans-serif;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: var(--font);
+    font-weight: 300;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  /* HEADER */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 48px 60px 40px;
+  }
+
+  .header-eyebrow {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 12px;
+  }
+
+  header h1 {
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    color: var(--text);
+    line-height: 1.3;
+  }
+
+  header h1 span { font-weight: 500; }
+
+  .header-meta {
+    margin-top: 10px;
+    font-size: 13px;
+    color: var(--muted);
+    letter-spacing: 0.03em;
+  }
+
+  /* CICLO STRIP */
+  .ciclo-strip {
+    background: var(--text);
+    color: #fff;
+    padding: 10px 60px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .ciclo-strip .sep { opacity: 0.3; }
+
+  /* NAV SEMANAS */
+  .semanas-nav {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0 60px;
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+  }
+
+  .semana-tab {
+    padding: 14px 20px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    white-space: nowrap;
+    transition: color 0.15s, border-color 0.15s;
+    text-transform: uppercase;
+  }
+
+  .semana-tab:hover { color: var(--text); }
+
+  .semana-tab.activa {
+    color: var(--text);
+    border-bottom: 2px solid var(--text);
+    font-weight: 500;
+  }
+
+  .semana-tab.historial {
+    color: var(--muted);
+    opacity: 0.6;
+  }
+
+  /* MAIN */
+  main {
+    padding: 48px 60px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 28px;
+  }
+
+  /* GRID */
+  .cursos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+
+  /* CARD */
+  .curso-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: box-shadow 0.2s ease;
+  }
+
+  .curso-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.07); }
+
+  .card-accent { height: 4px; width: 100%; }
+
+  .card-header {
+    padding: 20px 24px 16px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .card-title {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.4;
+  }
+
+  .card-code {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 2px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .card-body { padding: 20px 24px; }
+
+  .card-section { margin-bottom: 20px; }
+  .card-section:last-child { margin-bottom: 0; }
+
+  .card-section-label {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .semana-pill {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 3px 9px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+  }
+
+  .indicaciones-item {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 5px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: var(--text);
+  }
+
+  .indicaciones-item:last-child { border-bottom: none; }
+
+  .ind-marker {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    margin-top: 8px;
+    flex-shrink: 0;
+    background: var(--muted);
+  }
+
+  /* CARPETA LINK */
+  .carpeta-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 14px;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--text);
+    transition: background 0.15s ease;
+  }
+
+  .carpeta-link:hover { background: var(--bg); }
+
+  .carpeta-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .carpeta-icon svg { width: 16px; height: 16px; }
+
+  .carpeta-info { flex: 1; }
+  .carpeta-name { font-size: 13px; font-weight: 400; }
+  .carpeta-sub { font-size: 11px; color: var(--muted); margin-top: 1px; }
+  .carpeta-arrow { font-size: 16px; color: var(--muted); opacity: 0.5; }
+
+  /* HISTORIAL BADGE */
+  .historial-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 6px 12px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 28px;
+  }
+
+  /* VACIO */
+  .vacio {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--muted);
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+  }
+
+  /* FOOTER */
+  footer {
+    margin-top: 60px;
+    padding: 28px 60px;
+    border-top: 1px solid var(--border);
+    background: var(--surface);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .footer-left { font-size: 12px; color: var(--muted); letter-spacing: 0.03em; }
+  .footer-right { font-size: 11px; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; }
+
+  @media (max-width: 700px) {
+    header, main, footer, .semanas-nav { padding-left: 24px; padding-right: 24px; }
+    .ciclo-strip { padding-left: 24px; padding-right: 24px; }
+    header h1 { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-eyebrow" id="eyebrow"></div>
+  <h1 id="titulo-header"></h1>
+  <div class="header-meta">Panel informativo para docentes · Actualización semanal</div>
+</header>
+
+<div class="ciclo-strip" id="ciclo-strip"></div>
+
+<nav class="semanas-nav" id="semanas-nav"></nav>
+
+<main>
+  <div class="section-label" id="section-label">Cursos activos</div>
+  <div id="historial-badge" style="display:none;">
+    <div class="historial-badge">Historial · semana anterior</div>
+  </div>
+  <div class="cursos-grid" id="cursos-grid"></div>
+</main>
+
+<footer>
+  <div class="footer-left" id="footer-left"></div>
+  <div class="footer-right" id="footer-right"></div>
+</footer>
+
+<script>
+  let DATA = null;
+  let semanaActiva = null;
+
+  function hexToRgba(hex, alpha) {
+    const r = parseInt(hex.slice(1,3),16);
+    const g = parseInt(hex.slice(3,5),16);
+    const b = parseInt(hex.slice(5,7),16);
+    return `rgba(${r},${g},${b},${alpha})`;
+  }
+
+  function formatFecha(fechaStr) {
+    const meses = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+    const [y, m, d] = fechaStr.split('-').map(Number);
+    return `${d} de ${meses[m-1]} de ${y}`;
+  }
+
+  function renderNav() {
+    const nav = document.getElementById('semanas-nav');
+    nav.innerHTML = '';
+    const semanas = [...DATA.semanas].sort((a,b) => b.numero - a.numero);
+    semanas.forEach(s => {
+      const tab = document.createElement('div');
+      tab.className = 'semana-tab' + (s.numero === DATA.semanaActual ? '' : ' historial') + (s.numero === semanaActiva ? ' activa' : '');
+      tab.textContent = `Semana ${s.numero}`;
+      tab.onclick = () => {
+        semanaActiva = s.numero;
+        renderNav();
+        renderGrid();
+      };
+      nav.appendChild(tab);
+    });
+  }
+
+  function renderGrid() {
+    const grid = document.getElementById('cursos-grid');
+    const badge = document.getElementById('historial-badge');
+    const label = document.getElementById('section-label');
+    grid.innerHTML = '';
+
+    const semanaData = DATA.semanas.find(s => s.numero === semanaActiva);
+    const esActual = semanaActiva === DATA.semanaActual;
+
+    label.textContent = esActual ? 'Cursos activos' : `Historial — Semana ${semanaActiva}`;
+    badge.style.display = esActual ? 'none' : 'block';
+
+    if (!semanaData) {
+      grid.innerHTML = '<div class="vacio">No hay contenido registrado para esta semana.</div>';
+      return;
+    }
+
+    DATA.cursos.forEach(curso => {
+      const contenido = semanaData.cursos[curso.id];
+      if (!contenido) return;
+
+      const color = curso.color;
+      const colorLight = hexToRgba(color, 0.10);
+
+      const card = document.createElement('div');
+      card.className = 'curso-card';
+      card.innerHTML = `
+        <div class="card-accent" style="background:${color};"></div>
+        <div class="card-header">
+          <div class="card-title">${curso.nombre}</div>
+          <div class="card-code" style="background:${colorLight}; color:${color};">${curso.codigo}</div>
+        </div>
+        <div class="card-body">
+          <div class="card-section">
+            <div class="semana-pill" style="background:${colorLight}; color:${color};">Semana ${semanaActiva}</div>
+            <div class="card-section-label">Indicaciones generales</div>
+            ${contenido.indicaciones.map(ind => `
+              <div class="indicaciones-item">
+                <div class="ind-marker"></div>
+                <div>${ind}</div>
+              </div>
+            `).join('')}
+          </div>
+          <div class="card-section">
+            <div class="card-section-label">Carpeta compartida</div>
+            <a class="carpeta-link" href="${curso.carpeta.url}" target="_blank">
+              <div class="carpeta-icon" style="background:${colorLight};">
+                <svg viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 5C0 3.89543 0.895431 3 2 3H8L10 5.5H18C19.1046 5.5 20 6.39543 20 7.5V14C20 15.1046 19.1046 16 18 16H2C0.895431 16 0 15.1046 0 14V5Z" fill="${color}" opacity="0.85"/>
+                </svg>
+              </div>
+              <div class="carpeta-info">
+                <div class="carpeta-name">${curso.carpeta.nombre}</div>
+                <div class="carpeta-sub">${curso.carpeta.descripcion}</div>
+              </div>
+              <div class="carpeta-arrow">→</div>
+            </a>
+          </div>
+        </div>
+      `;
+      grid.appendChild(card);
+    });
+  }
+
+  function renderPage() {
+    const coord = DATA.coordinacion;
+    const tituloPartes = coord.titulo.split(':');
+
+    document.title = coord.titulo;
+    document.getElementById('eyebrow').textContent = `${coord.universidad} · ${coord.unidad}`;
+
+    const h1 = document.getElementById('titulo-header');
+    h1.innerHTML = `${tituloPartes[0]}:<br><span>${tituloPartes[1].trim()}</span>`;
+
+    const semanaActualData = DATA.semanas.find(s => s.numero === DATA.semanaActual);
+    const fechaStr = semanaActualData ? formatFecha(semanaActualData.fechaPublicacion) : '';
+
+    const strip = document.getElementById('ciclo-strip');
+    strip.innerHTML = `
+      <span>Ciclo ${DATA.ciclo}</span>
+      <span class="sep">|</span>
+      <span>Semana actual: ${DATA.semanaActual}</span>
+      <span class="sep">|</span>
+      <span>Última actualización: ${fechaStr}</span>
+    `;
+
+    document.getElementById('footer-left').textContent = `${coord.unidad} · ${coord.universidad}`;
+    document.getElementById('footer-right').textContent = `Ciclo ${DATA.ciclo}`;
+
+    semanaActiva = DATA.semanaActual;
+    renderNav();
+    renderGrid();
+  }
+
+  fetch('data.json')
+    .then(r => r.json())
+    .then(data => {
+      DATA = data;
+      renderPage();
+    })
+    .catch(() => {
+      document.getElementById('cursos-grid').innerHTML =
+        '<div class="vacio">No se pudo cargar el contenido. Verifica que data.json esté en la misma carpeta.</div>';
+    });
+</script>
+
+</body>
+</html>
