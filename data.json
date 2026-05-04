@@ -5,7 +5,7 @@
     "universidad": "Universidad Científica del Sur"
   },
   "ciclo": "2026-1",
-  "semanaActual": 5,
+  "semanaActual": 6,
   "cursos": [
     {
       "id": "lyc",
@@ -53,6 +53,46 @@
     }
   ],
   "semanas": [
+    {
+      "numero": 6,
+      "fechaPublicacion": "2026-05-04",
+      "recomendaciones": "Estimados colegas, para esta semana, busquemos que nuestros estudiantes vayan estableciendo ideas claras sobre sus productos y practiquen para el examen parcial. Nosotros somos mediadores para que ellos sepan lo importante de estudiar y practicar sus aprendizajes en clase. Recomiendo que sustenten en pizarra y conversen sobre los puntos teóricos durante el proceso de 'apliquemos lo aprendido'. Seamos claros en explicarles que el parcial será individual y depende mucho de ellos que el 20% de la nota del curso sea muy positiva.",
+      "cursos": {
+        "lyc": {
+          "indicaciones": [
+            "Para semana 6, los estudiantes trabajarán el Taller de consolidación de aprendizajes 1.",
+            "Vea las pautas y proyéctelas en el aula para que los estudiantes avancen el proceso y realicen un repaso.",
+            "Dediquen un pequeño espacio en compartir el material audiovisual sobre la ejecución de los libros cartoneros.",
+            "El libro cartonero se realiza de manera asíncrona. Al finalizar el módulo, los estudiantes deberán tener los libros en un 90% listos.",
+            "Los materiales se encuentran en la carpeta compartida."
+          ]
+        },
+        "lyc2": {
+          "indicaciones": [
+            "Los estudiantes trabajarán el Taller de consolidación de aprendizajes considerando los temas de concordancia gramatical.",
+            "El docente participa con el estudiante en la ejecución de las preguntas.",
+            "Recomendamos no usar dispositivos electrónicos en la práctica.",
+            "Los materiales se encuentran en la carpeta compartida."
+          ]
+        },
+        "rg": {
+          "indicaciones": [
+            "Los estudiantes trabajarán el tema del ensayo argumentativo.",
+            "El taller de aprendizaje servirá para realizar el monitoreo del tema del ensayo y sus fuentes confiables.",
+            "Debido a la modalidad virtual, los estudiantes redactarán sus documentos en formato HTML en sus salas. Al terminar, descargan el documento (presionar Ctrl+P) y lo entregan al docente para la retroalimentación.",
+            "Los documentos se encuentran en la carpeta compartida."
+          ]
+        },
+        "lyo": {
+          "indicaciones": [
+            "El taller de aprendizaje se ejecutará en el espacio de práctica del curso.",
+            "El taller durará 100 minutos bajo supervisión del docente de práctica.",
+            "El docente mediará los contenidos con el fin de trabajar la redacción del párrafo del reporte clínico y repasará los temas con miras al examen parcial.",
+            "Los materiales se encuentran en la carpeta compartida."
+          ]
+        }
+      }
+    },
     {
       "numero": 5,
       "fechaPublicacion": "2026-04-28",
