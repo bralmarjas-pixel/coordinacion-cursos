@@ -112,6 +112,27 @@
       nav.appendChild(tab);
     });
   }
+  function linkify(text) {
+    return text.replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">$1</a>');
+  }
+
+  function formatRecomendaciones(text) {
+    const lines = text.split('\n');
+    let html = '';
+    let inList = false;
+    lines.forEach(line => {
+      if (line.startsWith('- ')) {
+        if (!inList) { html += '<ul style="margin:10px 0 6px 16px;padding:0;">'; inList = true; }
+        html += '<li style="margin-bottom:4px;">' + linkify(line.slice(2)) + '</li>';
+      } else {
+        if (inList) { html += '</ul>'; inList = false; }
+        if (line.trim()) html += '<p style="margin-bottom:8px;">' + linkify(line) + '</p>';
+      }
+    });
+    if (inList) html += '</ul>';
+    return html;
+  }
+
   function renderGrid() {
     const grid = document.getElementById('cursos-grid');
     const badge = document.getElementById('historial-badge');
@@ -124,7 +145,7 @@
     label.textContent = esActual ? 'Cursos activos' : `Historial — Semana ${semanaActiva}`;
     badge.style.display = esActual ? 'none' : 'block';
     if (semanaData && semanaData.recomendaciones) {
-      recTexto.textContent = semanaData.recomendaciones;
+      recTexto.innerHTML = formatRecomendaciones(semanaData.recomendaciones);
       recBloque.style.display = 'block';
     } else {
       recBloque.style.display = 'none';
@@ -147,7 +168,7 @@
           <div class="card-section">
             <div class="semana-pill" style="background:${colorLight};color:${color};">Semana ${semanaActiva}</div>
             <div class="card-section-label">Indicaciones generales</div>
-            ${contenido.indicaciones.map(ind=>`<div class="indicaciones-item"><div class="ind-marker"></div><div>${ind}</div></div>`).join('')}
+            ${contenido.indicaciones.map(ind=>`<div class="indicaciones-item"><div class="ind-marker"></div><div>${linkify(ind)}</div></div>`).join('')}
           </div>
           <div class="card-section">
             <div class="card-section-label">Carpeta compartida</div>
