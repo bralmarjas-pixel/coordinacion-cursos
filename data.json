@@ -5,7 +5,7 @@
     "universidad": "Universidad Científica del Sur"
   },
   "ciclo": "2026-1",
-  "semanaActual": 6,
+  "semanaActual": 7,
   "cursos": [
     {
       "id": "lyc",
@@ -53,6 +53,47 @@
     }
   ],
   "semanas": [
+    {
+      "numero": 7,
+      "fechaPublicacion": "2026-05-11",
+      "recomendaciones": "Estimados colegas, para esta semana debemos consolidar aprendizajes con miras al examen parcial. Les recomendamos revisar el taller, validar las respuestas clave por clave y fundamentar las jerarquías, normativas, organizaciones y precisiones dentro de los contextos de cada producto. Asimismo, los invitamos este miércoles a las 9 p.m. para la reunión de Coordinación de Curso. Los turnos serán los siguientes: Lengua y Comunicación a las 9:10 p.m., Lengua y Comunicación 2 a las 9:20 p.m., Lengua y Oratoria a las 9:30 p.m., y Redacción General a las 9:40 p.m. Explicaremos y brindaremos recomendaciones para comunicar a nuestros estudiantes.",
+      "cursos": {
+        "lyc": {
+          "indicaciones": [
+            "Reforcemos los temas de las semanas 6 y 7.",
+            "Recordemos a nuestros estudiantes su sección y el nombre del docente para el caso del examen parcial.",
+            "Consideremos importante el proceso deductivo del índice en el desarrollo de las sesiones."
+          ]
+        },
+        "lyc2": {
+          "indicaciones": [
+            "Completemos adecuadamente el marcado de la rúbrica de evaluación, asegurándonos de que todos los criterios establecidos sean revisados y calificados sin omisiones.",
+            "Recordemos que el cumplimiento de esta práctica contribuye a una retroalimentación más clara para los estudiantes y evita posibles confusiones o reclamos relacionados con las calificaciones.",
+            "Orientemos a nuestros estudiantes en el repaso de aspectos de normativa acorde a los temas desarrollados para esta semana.",
+            "Atendamos especialmente a la comprensión de textos."
+          ]
+        },
+        "rg": {
+          "indicaciones": [
+            "Enfoquémonos en la estructura de la introducción del ensayo y en la función de cada uno de sus elementos.",
+            "Analicemos junto con nuestros estudiantes cómo debe elegirse una cita para que funcione como fundamento del argumento. Para ello, utilicemos la ficha de análisis textual de la PPT.",
+            "Con respecto a la evaluación parcial (EP), recordemos a los estudiantes que esta se realizará de manera presencial durante la semana 8. Podemos invitarlos a revisar la rúbrica de la EP disponible en la ficha de actividades evaluadas del aula virtual.",
+            "Recomendemos a nuestros estudiantes asistir puntualmente a la EP y tener presente el nombre de su docente y su sección. Recordémosles que está prohibido ingresar a un aula distinta de la programada por la universidad.",
+            "El taller de esta semana se encuentra en la carpeta compartida (módulo 2).",
+            "Tomemos un minuto de nuestra sesión para recordar a los estudiantes inscritos en el Reforzamiento de Redacción General la importancia de asistir a las sesiones programadas, considerando que se trata de un compromiso asumido voluntariamente al momento de su inscripción."
+          ]
+        },
+        "lyo": {
+          "indicaciones": [
+            "Pongamos énfasis en el estilo Vancouver para que nuestros estudiantes lo apliquen adecuadamente en la fundamentación del diagnóstico, que forma parte del reporte clínico.",
+            "Expliquemos casos puntuales o realicemos ejemplos con las fuentes recopiladas por nuestros estudiantes.",
+            "Indiquemos a nuestros estudiantes que la próxima semana no habrá clases regulares; solo se realizará la EP.",
+            "Compartamos con nuestros estudiantes el siguiente dashboard sobre Vancouver: https://acortar.link/EDYWlv",
+            "Los materiales se encuentran en la carpeta compartida."
+          ]
+        }
+      }
+    },
     {
       "numero": 6,
       "fechaPublicacion": "2026-05-04",
