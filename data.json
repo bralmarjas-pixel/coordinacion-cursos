@@ -5,7 +5,7 @@
     "universidad": "Universidad Científica del Sur"
   },
   "ciclo": "2026-1",
-  "semanaActual": 7,
+  "semanaActual": 9,
   "cursos": [
     {
       "id": "lyc",
@@ -53,6 +53,44 @@
     }
   ],
   "semanas": [
+    {
+      "numero": 9,
+      "fechaPublicacion": "2026-05-26",
+      "recomendaciones": "Estimados colegas, para esta semana les informaremos los lineamientos de la Semana de Integración Universitaria, que se llevará a cabo este lunes 8 de junio. Para ello, contamos con su participación en una reunión virtual este martes 26 de mayo.\n\nSobre las sesiones sincrónicas, desde hoy iniciamos el módulo 3. Ello implica un nuevo cuaderno de trabajo que brindará un considerable porcentaje en la evaluación de la EC1. Nuestros responsables de curso les brindarán las recomendaciones correspondientes por curso.",
+      "cursos": {
+        "lyc": {
+          "indicaciones": [
+            "Publiquemos el cuaderno de trabajo en el aula virtual en la semana 9, configurando la entrega por grupo y fecha límite de entrega.",
+            "Los estudiantes resolverán las actividades semanalmente a mano (con lapicero) y, posteriormente, las subirán escaneadas.",
+            "Los materiales se encuentran en la carpeta compartida."
+          ]
+        },
+        "lyc2": {
+          "indicaciones": [
+            "Resultado de la sesión: al finalizar, el estudiante elabora la estructura del ensayo argumentativo y la introducción del mismo.",
+            "Subamos el cuaderno de trabajo (módulo 3) al aula virtual como tarea.",
+            "Los equipos retoman el tema que defendieron en el debate para profundizarlo a través del ensayo argumentativo.",
+            "Sigamos promoviendo el trabajo en equipo.",
+            "Los materiales se encuentran en la carpeta compartida."
+          ]
+        },
+        "rg": {
+          "indicaciones": [
+            "Invitemos a nuestros estudiantes a observar con detenimiento la segunda clase invertida del curso sobre el diseño del esquema de redacción.",
+            "Desarrollemos la clase considerando que el producto es el diseño del esquema de redacción de cuatro párrafos de desarrollo: párrafo con dato estadístico, de autoridad, de ejemplificación y de contraargumentación.",
+            "Orientemos a nuestros estudiantes en la adecuada selección de las citas y la aplicación del estilo APA 7.",
+            "Consideremos que la siguiente semana inicia la redacción de los párrafos de desarrollo.",
+            "Los materiales se encuentran en la carpeta compartida."
+          ]
+        },
+        "lyo": {
+          "indicaciones": [
+            "Esta semana el tema se enfocará en las técnicas de la comunicación oral y en la utilidad y estructura de la junta médica simulada.",
+            "Los materiales se encuentran en la carpeta compartida."
+          ]
+        }
+      }
+    },
     {
       "numero": 7,
       "fechaPublicacion": "2026-05-11",
