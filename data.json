@@ -5,7 +5,7 @@
     "universidad": "Universidad Científica del Sur"
   },
   "ciclo": "2026-1",
-  "semanaActual": 9,
+  "semanaActual": 10,
   "cursos": [
     {
       "id": "lyc",
@@ -53,6 +53,51 @@
     }
   ],
   "semanas": [
+    {
+      "numero": 10,
+      "fechaPublicacion": "2026-05-31",
+      "recomendaciones": "Estimados colegas, esperamos que se encuentren bien. Para esta semana, procuremos terminar con las correcciones de los exámenes parciales. En caso existan incidencias, comuniquémonos con los responsables de curso para las derivaciones del caso.\n\nEn el caso de la Semana de Integración, los docentes de Lengua y Comunicación iniciemos con los procesos de activación en el aula. Estos reemplazarán al 'Reflexión desde la experiencia' para que el estudiante llegue a la semana 11 con la disposición de llevar a cabo la etapa con total predisposición al compañerismo, con ideas creativas y con plena libertad.",
+      "cursos": {
+        "lyc": {
+          "indicaciones": [
+            "Empecemos con el proceso de activación previo a la feria cartonera. Brindemos el PPT/PDF donde los estudiantes solo dibujarán en la pizarra, bajo proyección, una propuesta de denuncia hacia autoridades políticas.",
+            "Después de la activación, generemos capturas como parte de las evidencias. Abramos una carpeta extra para que los estudiantes suban las imágenes de cada una de sus experiencias.",
+            "Continuemos con la redacción del contenido de la monografía: la estrategia comparativa.",
+            "En caso los estudiantes no culminen los pasos, recomendamos prolongar las entregas considerando que hayan cumplido el proceso.",
+            "Los materiales se encuentran en la carpeta compartida."
+          ]
+        },
+        "lyc2": {
+          "indicaciones": [
+            "Realizaremos las estrategias argumentativas para la redacción de los párrafos del ensayo.",
+            "Recordemos que los estudiantes pueden ampliar sus contenidos expuestos en el módulo 1.",
+            "Los materiales se encuentran en la carpeta compartida."
+          ]
+        },
+        "rg": {
+          "indicaciones": [
+            "Orientemos a nuestros estudiantes en la conversión del esquema de redacción a párrafo.",
+            "Redactemos dos párrafos de desarrollo: dato estadístico y autoridad.",
+            "Visitemos cada sala grupal al menos dos veces: la primera para recoger las dudas de los estudiantes y la segunda para verificar la correcta redacción del producto.",
+            "Seamos claros en especificar los tipos de cita que deben incluir en sus párrafos.",
+            "Hagamos seguimiento para asegurar que las citas hayan sido seleccionadas de manera correcta.",
+            "Al terminar la clase, solicitemos a los estudiantes que, como tarea asíncrona, anoten revisiones de sus dos párrafos con el fin de obtener la versión final.",
+            "Los cuatro párrafos de desarrollo deben estar culminados antes de la sesión 12 (EC2: exposición del desarrollo del ensayo).",
+            "Importante: los equipos deben guardar las capturas de imagen de las citas ubicadas en las fuentes consultadas porque serán solicitadas en la EC2.",
+            "Los materiales se encuentran en la carpeta compartida."
+          ]
+        },
+        "lyo": {
+          "indicaciones": [
+            "Busquemos avanzar la tercera fase de la junta médica a través de la discusión de los equipos especialistas.",
+            "Durante la fase práctica, los estudiantes deben mantener una posición respetuosa hacia el compañero de equipo.",
+            "Recordemos que la junta médica no es un debate, sino un proceso de búsqueda de una solución o diagnóstico para el bienestar del paciente. Por ello, los estudiantes preservarán sus fundamentos sobre la base de evidencias.",
+            "La calificación se sustentará no solo con el guion, sino con evidencias de expresión oral a través de fotografías. Los estudiantes deben subirlas en la segunda entrega del cuaderno de trabajo.",
+            "Los materiales se encuentran en la carpeta compartida."
+          ]
+        }
+      }
+    },
     {
       "numero": 9,
       "fechaPublicacion": "2026-05-26",
