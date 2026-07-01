@@ -5,7 +5,7 @@
     "universidad": "Universidad Científica del Sur"
   },
   "ciclo": "2026-1",
-  "semanaActual": 10,
+  "semanaActual": 14,
   "cursos": [
     {
       "id": "lyc",
@@ -53,6 +53,50 @@
     }
   ],
   "semanas": [
+    {
+      "numero": 14,
+      "fechaPublicacion": "2026-06-23",
+      "recomendaciones": "Estimados colegas, para esta semana solicitemos conformidad a nuestros estudiantes sobre las asistencias y calificaciones hasta la EC2. Es muy importante que brindemos los últimos comentarios a los productos realizados durante el semestre.\n\nApliquemos flexibilidad cuando sea necesario y oportuno. Nosotros medimos las competencias escritas y orales. Por ello, la visión de etiqueta para exponer no es obligatoria. No contemplemos bajar puntaje a criterios que no se relacionan con la rúbrica.",
+      "cursos": {
+        "lyc": {
+          "indicaciones": [
+            "Retroalimentemos las versiones finales de la monografía.",
+            "Expliquemos a los estudiantes los lineamientos de la Evaluación Continua 3 (EC3) y dejemos habilitado el espacio para el registro de la monografía en el formato indicado.",
+            "Los materiales se encuentran en la carpeta compartida."
+          ]
+        },
+        "lyc2": {
+          "indicaciones": [
+            "Llevemos a cabo la presentación del ensayo argumentativo con retroalimentación final entre equipos y apoyo del docente.",
+            "Retroalimentemos a los estudiantes acerca de los guiones del pódcast. Se subió un material de apoyo para que avancen sus guiones interactivos.",
+            "Orientemos a los estudiantes en la preparación de su podcast para la siguiente semana (EC3).",
+            "Los materiales se encuentran en la carpeta compartida."
+          ]
+        },
+        "rg": {
+          "indicaciones": [
+            "Orientemos a nuestros estudiantes para que diagramen su revista digital imitando la estructura de una revista electrónica de investigación, verificando que incluya portada, índice, reseña, ensayo argumentativo, contraportada y los demás elementos que fortalezcan su presentación.",
+            "Verifiquemos que la versión final de la reseña y del ensayo argumentativo haya sido incorporada correctamente en la revista, sin errores de redacción, formato o edición, antes de su publicación en Calameo.",
+            "Recordemos a los estudiantes que, para la EC3, deberán entregar el formato de evaluación con los enlaces funcionales de la revista publicada en Calameo y del material de apoyo para la sustentación, asegurando que ambos sean de libre acceso para el docente. De acuerdo con el desempeño, podemos dejar abierta la opción de que expongan con su revista.",
+            "Promovamos que cada equipo prepare una sustentación clara y organizada de un máximo de diez minutos, distribuyendo previamente la participación de sus integrantes y anticipando posibles preguntas del público y del docente.",
+            "Enfatizemos la importancia de que la sustentación evidencie el dominio del contenido elaborado durante el semestre y el uso ético de las fuentes, evitando la lectura literal de diapositivas o guiones y privilegiando una exposición argumentada y reflexiva.",
+            "Expliquemos a los estudiantes que la sustentación se centrará en la defensa de su ensayo argumentativo: deberán justificar el contexto y la controversia planteados, defender su tesis con base en los argumentos desarrollados, explicar el uso de las estrategias argumentativas y responder de manera fundamentada las preguntas del docente y el público.",
+            "Recordemos a los estudiantes que la Evaluación Final de la semana 16 evaluará los principales contenidos del semestre: la estructura del ensayo argumentativo, las funciones de la introducción, el desarrollo y el cierre, así como las estrategias argumentativas (autoridad, ejemplificación y dato estadístico).",
+            "Recomendemos a nuestros estudiantes verificar sus horarios y sedes de evaluación: deben asistir 10 minutos antes de la hora programada y, un día antes, cotejar su aula de evaluación.",
+            "Habilitemos la entrega de la EC3 en el aula virtual.",
+            "Los materiales se encuentran en la carpeta compartida."
+          ]
+        },
+        "lyo": {
+          "indicaciones": [
+            "Los estudiantes deben culminar el portafolio médico.",
+            "Se brindó una plantilla para la EC3 disponible en HTML o PDF. Recomendamos usar el formato HTML.",
+            "Durante la exposición de la semana 15, los estudiantes deben afirmar lo trabajado desde la semana 1 hasta la 14 con suma agencia médica.",
+            "Los materiales se encuentran en la carpeta compartida."
+          ]
+        }
+      }
+    },
     {
       "numero": 10,
       "fechaPublicacion": "2026-05-31",
