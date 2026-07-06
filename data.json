@@ -5,7 +5,7 @@
     "universidad": "Universidad Científica del Sur"
   },
   "ciclo": "2026-1",
-  "semanaActual": 14,
+  "semanaActual": 15,
   "cursos": [
     {
       "id": "lyc",
@@ -53,6 +53,52 @@
     }
   ],
   "semanas": [
+    {
+      "numero": 15,
+      "fechaPublicacion": "2026-06-30",
+      "recomendaciones": "Estimados colegas, esta será la última semana en la que nos comunicaremos con nuestros estudiantes. Les pedimos cerrar con lo siguiente:\n- Récord de asistencias.\n- Conformidad de calificaciones.\n- Asegurar las retroalimentaciones en el portal Canvas.\n\nRecordemos que nuestros estudiantes sustentan y entregan sus productos finales sobre la base de la rúbrica. Aspectos como la vestimenta no serán considerados como parte de la evaluación. Nos importa mucho la comunicación verbal y no verbal; no podemos valorar bajo preceptos de etiqueta en ese sentido.\n\nA continuación, les brindamos las indicaciones de todos los cursos. Muchas gracias por su apoyo.",
+      "cursos": {
+        "lyc": {
+          "indicaciones": [
+            "Presentación en el aula virtual: entreguemos la monografía completa en el formato establecido para la EC3.",
+            "Sustentación grupal: todos los miembros de cada equipo sustentarán su trabajo utilizando la técnica de la mesa redonda.",
+            "Duración de la exposición: cada equipo tendrá entre 15 y 20 minutos.",
+            "Evaluación final: enfatizemos a los estudiantes que deben asistir en la semana 16 para rendir su evaluación final, de acuerdo con el rol de exámenes programado.",
+            "Cierre de sesión: antes de finalizar la clase, resolvamos cualquier observación respecto a calificaciones o asistencias, brindando la solución correspondiente.",
+            "Los materiales se encuentran en la carpeta compartida."
+          ]
+        },
+        "lyc2": {
+          "indicaciones": [
+            "La EC3 comprende la presentación escrita del ensayo académico final completo, redactado en equipo, aplicando estrategias argumentativas variadas según la plantilla de la versión final. Asimismo, deben adjuntarse evidencias del proceso (capturas de lo generado con IA como anexo final y reflexión metacognitiva).",
+            "Al final de la plantilla, los estudiantes deben agregar el link del pódcast académico (duración aproximada: 10 minutos), el cual será proyectado y comentado en el aula.",
+            "Apliquemos la rúbrica de evaluación de la EC3 marcando el nivel de logro que corresponde en cada criterio.",
+            "Los estudiantes deben emitir la conformidad de sus calificaciones para evitar reclamos posteriores.",
+            "Registremos las notas en Educanet dentro del plazo establecido.",
+            "Los materiales se encuentran en la carpeta compartida."
+          ]
+        },
+        "rg": {
+          "indicaciones": [
+            "Verifiquemos que todos los equipos cumplan con los requisitos establecidos para la EC3 antes de iniciar la sustentación, incluyendo el acceso a la revista digital en Calameo.",
+            "Apliquemos la rúbrica de evaluación de manera uniforme, asegurando que la calificación responda exclusivamente a los criterios y niveles de logro establecidos. Marquemos el nivel de competencia logrado por el equipo.",
+            "Promovamos una retroalimentación breve y formativa al finalizar cada sustentación, resaltando las fortalezas del trabajo y las oportunidades de mejora en la argumentación y la expresión oral.",
+            "Migremos las calificaciones a Educanet a la mayor brevedad posible una vez concluida la EC3, a fin de garantizar la disponibilidad oportuna de las notas.",
+            "Importante: solicitemos a los estudiantes la verificación de todas sus calificaciones y que dejen conformidad en el chat de la última clase. Así evitaremos la presentación de tickets con reclamos.",
+            "Recomendemos a los estudiantes asistir 20 minutos antes a la EF, llevar lapiceros azules, corrector y documento de identificación. Un día antes deben verificar su sede y aula. Los docentes no nos hacemos responsables por estudiantes a los que se les anule la evaluación por prácticas antiéticas o por quienes no puedan ingresar por llegar luego del tiempo de tolerancia (30 minutos).",
+            "Los materiales se encuentran en la carpeta compartida."
+          ]
+        },
+        "lyo": {
+          "indicaciones": [
+            "La Evaluación Continua 3 consta de un portafolio clínico que recoge todo lo elaborado en las semanas anteriores: historia clínica, dos apartados del reporte clínico, conclusiones de la junta médica simulada y evidencias de aprendizaje.",
+            "Es importante que tomemos en cuenta las retroalimentaciones brindadas para que los estudiantes elaboren las versiones finales de cada documento.",
+            "El uso de scrub o vestimenta médica es opcional.",
+            "Los materiales se encuentran en la carpeta compartida."
+          ]
+        }
+      }
+    },
     {
       "numero": 14,
       "fechaPublicacion": "2026-06-23",
